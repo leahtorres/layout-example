@@ -1,0 +1,51 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
+body {
+	
+}
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.red {
+	background-color: #ff0000;
+	height: 100vh;
+	width: 50vw;
+}
+.green {
+	background-color: #00ff00;
+	height: 50%;
+	width: 50%;
+}
+.yellow {
+	background-color: #ffff00;
+	height: 50%;
+	width: 50%;
+}
+.orange {
+background-color: #ffa500;
+height: 50%;
+width: 50%;
+}
+.blue {
+	background-color: #0000ff;
+	height: 50%;
+width: 50%;
+}
+.purple {
+height: 100vh;
+width: 50vw;
+display: flex;
+flex-wrap: wrap;
+}	
+@media screen and (max-width:800px) {
+	.red {
+		width: 100vw;
+	}
+	.purple {
+		width: 100vw;
+	}
+}
